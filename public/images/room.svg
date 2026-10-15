@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated consultation space</title>
+  <desc id="desc">A drawing of a quiet room with a window, a low table, and a cloth. It is not a photograph of Amani's premises.</desc>
+  <rect width="960" height="720" fill="#f4f7f5"/>
+  <rect x="80" y="70" width="360" height="460" fill="#e4ebe7"/>
+  <rect x="110" y="100" width="300" height="250" fill="#d7e6dc"/>
+  <path d="M110 220 H410" stroke="#2c4638" stroke-width="2" opacity="0.35"/>
+  <rect x="500" y="390" width="340" height="22" fill="#2c4638"/>
+  <rect x="530" y="412" width="16" height="120" fill="#3c3229"/>
+  <rect x="794" y="412" width="16" height="120" fill="#3c3229"/>
+  <path d="M520 470 C620 430 760 520 860 450" fill="none" stroke="#1b4332" stroke-width="8" stroke-linecap="round"/>
+  <path d="M760 250 C820 180 900 210 870 300 C830 270 790 300 770 360 C730 300 720 270 760 250 Z" fill="none" stroke="#2c4638" stroke-width="3"/>
+</svg>

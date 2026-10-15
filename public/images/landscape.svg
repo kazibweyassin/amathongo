@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated Ugandan hills</title>
+  <desc id="desc">A drawing of layered hills, a broad leaf, and open sky. It is an illustration, not a photograph of a place or a person.</desc>
+  <rect width="800" height="1000" fill="#143528"/>
+  <rect y="0" width="800" height="420" fill="#1b4332"/>
+  <path d="M0 430 C120 390 180 470 300 440 C430 406 470 330 620 360 C700 376 760 340 800 350 L800 1000 L0 1000 Z" fill="#10281e"/>
+  <path d="M0 560 C140 500 210 610 360 560 C500 514 560 470 700 520 C750 538 780 520 800 528 L800 1000 L0 1000 Z" fill="#1b4332"/>
+  <path d="M0 720 C160 660 240 760 420 700 C560 652 640 690 800 640 L800 1000 L0 1000 Z" fill="#0d2118"/>
+  <g fill="none" stroke="#e7f0ea" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M560 250 C610 180 690 170 730 230 C690 210 620 230 590 290 C560 250 520 250 560 250 Z"/>
+    <path d="M590 270 C640 300 700 340 670 390"/>
+    <path d="M150 780 C210 740 250 800 300 760"/>
+    <path d="M180 800 C220 830 260 790 310 820"/>
+  </g>
+  <circle cx="120" cy="160" r="36" fill="none" stroke="#e7f0ea" stroke-width="2"/>
+</svg>
