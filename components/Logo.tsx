@@ -12,9 +12,9 @@ export function Logo({ compact = false }: LogoProps) {
       <Image 
         src="/logo.png" // Path to your logo in the public/ folder
         alt=""          // Kept empty because aria-label on the Link handles screen readers
-        width={100} 
-        height={100} 
-        className="shrink-0 object-contain"
+        width={100}
+        height={100}
+        className="h-14 w-auto shrink-0 object-contain md:h-[100px] md:w-[100px]"
         priority        // Tells Next.js to load this image instantly (good for headers)
       />
       

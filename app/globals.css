@@ -181,6 +181,17 @@ summary::-webkit-details-marker {
   background-repeat: repeat;
 }
 
+.hero-track {
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+
+.hero-track::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
 @keyframes hero-meter {
   from {
     transform: scaleX(0);
