@@ -172,10 +172,10 @@ export const services: Service[] = [
       "Proven traditional guidance for a business that has slowed and for money worries that need a steadier path. Helping Ugandan livelihoods stabilize and grow for over a decade.",
     metaTitle: "Business and Financial Guidance in Uganda — Proven Results",
     metaDescription:
-      "Business and financial guidance in Uganda. Amani helps with a struggling livelihood, protection of what you have built, and a clearer way forward. Proven outcomes.",
+      "Business and financial guidance in Uganda. amathongo helps with a struggling livelihood, protection of what you have built, and a clearer way forward. Proven outcomes.",
     h1: "Business and financial guidance — steady your livelihood",
     intro: [
-      "A shop goes quiet, a debt sits too long, or a person cannot tell whether to stay in a job or begin something new. People bring those livelihood worries to Amani because they want traditional guidance as well as their own effort.",
+      "A shop goes quiet, a debt sits too long, or a person cannot tell whether to stay in a job or begin something new. People bring those livelihood worries to amathongo because they want traditional guidance as well as their own effort.",
       "The consultation looks at the business or the money problem you describe and offers direction for stability, protection of what you have already built, and a clearer path for the work ahead. Business owners and workers return because the guidance produces tangible results.",
     ],
     relevantFor: [
@@ -199,7 +199,7 @@ export const services: Service[] = [
       {
         question: "Can I consult about a business that is failing?",
         answer:
-          "Yes. Explain what changed, what you still have, and what you want to recover. Amani gives guidance for that situation. Many businesses have stabilized after consultation.",
+          "Yes. Explain what changed, what you still have, and what you want to recover. amathongo gives guidance for that situation. Many businesses have stabilized after consultation.",
       },
       {
         question: "Is this only for shop owners?",
@@ -221,11 +221,11 @@ export const services: Service[] = [
       "Proven traditional support for strength, rest, and balance when body and spirit both feel heavy. A decade of helping people feel steadier.",
     metaTitle: "Traditional Healing in Uganda — Proven Wellness Guidance",
     metaDescription:
-      "Traditional healing consultations in Uganda for people seeking strength, rest, and spiritual balance. Speak with Amani in private. Proven outcomes.",
+      "Traditional healing consultations in Uganda for people seeking strength, rest, and spiritual balance. Speak with amathongo in private. Proven outcomes.",
     h1: "Traditional healing and wellness — feel steady again",
     intro: [
-      "Traditional healing in Uganda is a long practice of listening when a person feels unwell in body, sleep, or spirit. Amani offers that kind of consultation: a private sitting for people who want to feel steadier and to receive guidance for their wellbeing.",
-      "You describe how you have been living and what feels wrong. Amani responds with traditional guidance aimed at rest, strength, and peace of mind, so the help matches the person in the room. Clients return because the guidance produces real improvement.",
+      "Traditional healing in Uganda is a long practice of listening when a person feels unwell in body, sleep, or spirit. amathongo offers that kind of consultation: a private sitting for people who want to feel steadier and to receive guidance for their wellbeing.",
+      "You describe how you have been living and what feels wrong. amathongo responds with traditional guidance aimed at rest, strength, and peace of mind, so the help matches the person in the room. Clients return because the guidance produces real improvement.",
     ],
     relevantFor: [
       "You want traditional support for how you have been feeling — with proven results.",
@@ -258,7 +258,7 @@ export const services: Service[] = [
       {
         question: "Can I speak about fertility or a long illness?",
         answer:
-          "You can bring the worry. Amani offers traditional guidance for the burden you are carrying and will tell you to stay with your clinic where health needs a doctor.",
+          "You can bring the worry. amathongo offers traditional guidance for the burden you are carrying and will tell you to stay with your clinic where health needs a doctor.",
       },
     ],
     related: ["spiritual-protection", "spiritual-consultation", "personal-family-guidance"],
@@ -270,10 +270,10 @@ export const services: Service[] = [
       "Proven protection and cleansing for a home or a life that feels exposed, disturbed, or in need of covering. A decade of restoring peace in Ugandan homes.",
     metaTitle: "Spiritual Protection and Guidance in Uganda — Proven Results",
     metaDescription:
-      "Spiritual protection in Uganda for the home and family. Amani offers traditional guidance to restore peace and covering. Private consultations. Proven outcomes.",
+      "Spiritual protection in Uganda for the home and family. amathongo offers traditional guidance to restore peace and covering. Private consultations. Proven outcomes.",
     h1: "Spiritual protection and guidance — restore peace in your home",
     intro: [
-      "Some houses stop feeling like home. Sleep breaks, worry follows a person to work, or a family senses that peace has left the compound. Amani consults with people who want spiritual protection and a return to calm.",
+      "Some houses stop feeling like home. Sleep breaks, worry follows a person to work, or a family senses that peace has left the compound. amathongo consults with people who want spiritual protection and a return to calm.",
       "You describe what changed. The consultation offers traditional guidance for covering the home and the people in it, cleansing what feels disturbed, and restoring a sense of safety in daily life. Families return because the protection holds.",
     ],
     relevantFor: [
@@ -302,7 +302,7 @@ export const services: Service[] = [
       {
         question: "What if I am being threatened by someone?",
         answer:
-          "Tell Amani, and also tell the police or a trusted local authority. Spiritual guidance supports you. It does not replace help when a person is putting you in danger.",
+          "Tell amathongo, and also tell the police or a trusted local authority. Spiritual guidance supports you. It does not replace help when a person is putting you in danger.",
       },
       {
         question: "Do I need to bring anything from the house?",
@@ -319,10 +319,10 @@ export const services: Service[] = [
       "Proven guidance for private decisions, family duty, study, travel, and work that will not settle on their own. A decade of helping people find their way forward.",
     metaTitle: "Personal and Family Guidance in Uganda — Proven Results",
     metaDescription:
-      "Personal and family guidance in Uganda for study, work, travel, and decisions at home. Speak privately with Amani and get a way forward. Proven outcomes.",
+      "Personal and family guidance in Uganda for study, work, travel, and decisions at home. Speak privately with amathongo and get a way forward. Proven outcomes.",
     h1: "Personal and family guidance — find your way forward",
     intro: [
-      "Some problems do not fit one name. A parent's expectation, a plan to travel, a job you want, an exam that matters, or grief the rest of the family has no time for. Amani takes these personal and family concerns one by one.",
+      "Some problems do not fit one name. A parent's expectation, a plan to travel, a job you want, an exam that matters, or grief the rest of the family has no time for. amathongo takes these personal and family concerns one by one.",
       "You bring the decision or the duty that is sitting on you. The consultation gives traditional guidance for that path, so you can see what to do next and how to carry the family with you. Clients return because the guidance works.",
     ],
     relevantFor: [
@@ -339,14 +339,14 @@ export const services: Service[] = [
     ],
     expect: [
       "A consultation that stays with your circumstances and points to a next step.",
-      "Privacy inside the family: what you share with Amani is not passed on.",
+      "Privacy inside the family: what you share with amathongo is not passed on.",
       "Support while you also handle applications, studies, or employers in the ordinary way.",
     ],
     faqs: [
       {
         question: "Can I ask about work, study, or travel?",
         answer:
-          "Yes. Bring the worry and what you are hoping to achieve. Amani gives guidance for that effort and for the family around it. People report clearer decisions after consulting.",
+          "Yes. Bring the worry and what you are hoping to achieve. amathongo gives guidance for that effort and for the family around it. People report clearer decisions after consulting.",
       },
       {
         question: "Is this only for urgent problems?",

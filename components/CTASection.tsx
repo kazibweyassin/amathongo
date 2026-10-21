@@ -2,8 +2,8 @@ import { EnquiryLink } from "@/components/EnquiryLink";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export function CTASection({
-  title = "Talk to Amani",
-  text = "Bring the problem you want help with. Amani will listen and give you traditional guidance for the way forward — guidance proven by the outcomes clients keep.",
+  title = "Talk to amathongo",
+  text = "Bring the problem you want help with. amathongo will listen and give you traditional guidance for the way forward — guidance proven by the outcomes clients keep.",
   id,
 }: {
   title?: string;

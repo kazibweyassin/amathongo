@@ -36,7 +36,7 @@ export default function ServicesPage() {
       <CTASection
         id="services-cta"
         title="Not sure which consultation you need?"
-        text="Send a short note about the trouble and the change you want. Amani will say which consultation it needs and when it can begin."
+        text="Send a short note about the trouble and the change you want. amathongo will say which consultation it needs and when it can begin."
       />
     </>
   );

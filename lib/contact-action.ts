@@ -88,7 +88,7 @@ async function deliver(enquiry: Enquiry): Promise<"sent" | "not_delivered" | "fa
     email: enquiry.email,
     topic: enquiry.topic,
     message: enquiry.message,
-    source: "amani-website",
+    source: "amathongo-website",
   };
 
   if (webhook) {

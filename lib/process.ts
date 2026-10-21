@@ -1,6 +1,6 @@
 export const processSteps = [
   {
-    title: "Contact Amani",
+    title: "Contact amathongo",
     text: "Send a short message by WhatsApp, call, or use the form. Name the problem. A few sentences are enough to begin.",
   },
   {
@@ -13,10 +13,10 @@ export const processSteps = [
   },
   {
     title: "Receive guidance",
-    text: "Amani listens and gives traditional spiritual guidance for your situation, so you leave with a direction for the problem you brought.",
+    text: "amathongo listens and gives traditional spiritual guidance for your situation, so you leave with a direction for the problem you brought.",
   },
   {
     title: "Follow up where it helps",
-    text: "Some matters need a later conversation. If that will help you, Amani arranges it. You keep the guidance and use it in your own life.",
+    text: "Some matters need a later conversation. If that will help you, amathongo arranges it. You keep the guidance and use it in your own life.",
   },
 ] as const;

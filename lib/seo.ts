@@ -65,7 +65,7 @@ export function rootMetadata(): Metadata {
       "African plant medicine retreat",
       "holistic healing Uganda",
       "traditional herbal medicine workshops East Africa",
-      "African shamanism and energy healing",
+      "African shamathongosm and energy healing",
       "spiritual cleansing retreat Uganda",
       "ancestral healing ceremony Africa",
       "holistic wellness",

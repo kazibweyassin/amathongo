@@ -217,11 +217,11 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="section" aria-labelledby="amani">
+        <section className="section" aria-labelledby="amathongo">
           <div className="page-wrap grid gap-12 lg:grid-cols-[minmax(0,1fr)_22rem]">
             <div className="max-w-3xl space-y-10">
-              <section aria-labelledby="amani">
-                <h2 id="amani" className="font-display text-3xl text-ink">
+              <section aria-labelledby="amathongo">
+                <h2 id="amathongo" className="font-display text-3xl text-ink">
                   How House of Amathongo heals
                 </h2>
                 <div className="mt-4 space-y-4 text-lg leading-relaxed text-bark">

@@ -7,7 +7,7 @@ const reasons = [
   },
   {
     title: "Private & Confidential",
-    text: "The consultation stays between you and Amani. You can speak freely about what you want changed. Your story is not shared.",
+    text: "The consultation stays between you and amathongo. You can speak freely about what you want changed. Your story is not shared.",
   },
   {
     title: "A Clear Way Forward",
@@ -21,13 +21,13 @@ const reasons = [
 
 export function TrustSection() {
   return (
-    <section className="section bg-paper" aria-labelledby="why-amani">
+    <section className="section bg-paper" aria-labelledby="why-amathongo">
       <div className="page-wrap">
         <SectionHeading
-          id="why-amani"
-          eyebrow="Why people choose Amani"
-          title="Why Amani, and why clients return"
-          intro="People choose Amani when they want traditional help that takes their situation seriously, delivers real outcomes, and shows them a way through it. The guidance works — that is why clients come back and refer others."
+          id="why-amathongo"
+          eyebrow="Why people choose amathongo"
+          title="Why amathongo, and why clients return"
+          intro="People choose amathongo when they want traditional help that takes their situation seriously, delivers real outcomes, and shows them a way through it. The guidance works — that is why clients come back and refer others."
         />
         <ul className="mt-12 grid gap-10 md:grid-cols-2">
           {reasons.map((reason, index) => (

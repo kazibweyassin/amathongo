@@ -4,22 +4,22 @@ export const faqs: FaqItem[] = [
   {
     question: "What is a spiritual consultation?",
     answer:
-      "It is a private sitting with Amani. You explain the difficulty in front of you, and you receive traditional spiritual guidance aimed at that situation: direction for love, family, work, protection, or a personal matter that needs a way through. The guidance is proven by the outcomes clients keep.",
+      "It is a private sitting with amathongo. You explain the difficulty in front of you, and you receive traditional spiritual guidance aimed at that situation: direction for love, family, work, protection, or a personal matter that needs a way through. The guidance is proven by the outcomes clients keep.",
   },
   {
     question: "How do I book a consultation?",
     answer:
-      "Message on WhatsApp, call, or use the contact form. Say what you want help with and whether you prefer to meet or to speak remotely. Amani confirms the time and the fee before you begin.",
+      "Message on WhatsApp, call, or use the contact form. Say what you want help with and whether you prefer to meet or to speak remotely. amathongo confirms the time and the fee before you begin.",
   },
   {
     question: "Are consultations confidential?",
     answer:
-      "Yes. Your story stays private. Share what Amani needs in order to help, and leave out passwords, bank details, and copies of identity documents.",
+      "Yes. Your story stays private. Share what amathongo needs in order to help, and leave out passwords, bank details, and copies of identity documents.",
   },
   {
     question: "Can I consult from outside Uganda?",
     answer:
-      "Yes. People in Kampala can arrange a visit, and people elsewhere in Uganda or abroad can consult by phone or WhatsApp. Say where you are when you enquire, and Amani will set the consultation up in the way that fits.",
+      "Yes. People in Kampala can arrange a visit, and people elsewhere in Uganda or abroad can consult by phone or WhatsApp. Say where you are when you enquire, and amathongo will set the consultation up in the way that fits.",
   },
   {
     question: "How long does a consultation take?",
@@ -34,7 +34,7 @@ export const faqs: FaqItem[] = [
   {
     question: "What should I bring to a consultation?",
     answer:
-      "Bring a clear account of what is happening: who is involved, when it started, and what you want to see change. That is enough for Amani to work with.",
+      "Bring a clear account of what is happening: who is involved, when it started, and what you want to see change. That is enough for amathongo to work with.",
   },
   {
     question: "How much does a consultation cost?",
@@ -44,10 +44,10 @@ export const faqs: FaqItem[] = [
   {
     question: "What kind of help can I ask for?",
     answer:
-      "People come for love and relationships, marriage and family peace, business and money worries, traditional wellness, spiritual protection, and personal decisions. Tell Amani the real problem. The guidance is built around it.",
+      "People come for love and relationships, marriage and family peace, business and money worries, traditional wellness, spiritual protection, and personal decisions. Tell amathongo the real problem. The guidance is built around it.",
   },
   {
-    question: "Can I contact Amani through WhatsApp?",
+    question: "Can I contact amathongo through WhatsApp?",
     answer:
       "Yes. Use the WhatsApp button on any page. If a number has not been published yet, the button opens the contact form so your message still gets through.",
   },
@@ -59,6 +59,6 @@ export const homeFaqs = faqs.filter((faq) =>
     "How do I book a consultation?",
     "Are consultations confidential?",
     "What kind of help can I ask for?",
-    "Can I contact Amani through WhatsApp?",
+    "Can I contact amathongo through WhatsApp?",
   ].includes(faq.question),
 );
