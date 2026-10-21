@@ -31,14 +31,16 @@ function telephone(): string | undefined {
 }
 
 const knowsAbout = [
-  "Traditional African healer",
-  "African witch doctor",
-  "Ancestral divination",
-  "Political power",
-  "Court cases",
-  "Spiritual cleansing and protection",
-  "Traditional healing and remedies",
-  "Money and business rituals",
+  "Traditional spiritual consultation",
+  "Love and relationship guidance",
+  "Marriage and family guidance",
+  "Business and financial guidance",
+  "Traditional healing and wellness",
+  "Spiritual protection and guidance",
+  "Personal and family guidance",
+  "African spiritual tradition",
+  "Ancestral guidance",
+  "Spiritual direction",
 ];
 
 const areaServed = [
@@ -49,7 +51,7 @@ const areaServed = [
 function offerCatalog() {
   return {
     "@type": "OfferCatalog",
-    name: "Traditional African healing",
+    name: "Traditional spiritual consultations",
     itemListElement: services.map((service) => ({
       "@type": "Offer",
       itemOffered: {
@@ -124,7 +126,9 @@ export function localBusinessJson() {
     ...(address ? { address } : {}),
     ...(telephone() ? { telephone: telephone() } : {}),
     ...(hasEmail() ? { email: emailAddress() } : {}),
-    ...(hasHours() && hoursDisplay() === "24 hours" ? { openingHours: "Mo-Su 00:00-23:59" } : {}),
+    ...(hasHours() && hoursDisplay() === "24 hours"
+      ? { openingHours: "Mo-Su 00:00-23:59" }
+      : {}),
   };
 }
 
@@ -198,7 +202,7 @@ export function articleJson(input: {
     isAccessibleForFree: true,
     about: {
       "@type": "Thing",
-      name: "Traditional African healer in Uganda",
+      name: "Traditional spiritual consultation in Uganda",
     },
     mainEntityOfPage: absoluteUrl(`/blog/${input.slug}`),
     author: {

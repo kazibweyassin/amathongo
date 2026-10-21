@@ -15,8 +15,8 @@ import { getService, relatedServices, services } from "@/lib/services";
 
 const articleFor: Record<string, string> = {
   "spiritual-consultation": "traditional-spiritual-consultation-uganda",
-  "political-power": "spiritual-guidance-uganda",
-  "court-cases": "spiritual-guidance-uganda",
+  "love-relationships": "spiritual-guidance-uganda",
+  "marriage-family": "traditional-spiritual-consultation-uganda",
   "business-financial": "spiritual-guidance-uganda",
   "traditional-healing": "traditional-healing-uganda",
   "spiritual-protection": "spiritual-guidance-uganda",
@@ -66,7 +66,12 @@ export default async function ServicePage({
       <JsonLd data={breadcrumbJson(crumbs)} />
       <JsonLd data={faqJson(service.faqs)} />
       <JsonLd data={serviceJson(service)} />
-      <PageHero eyebrow="Healing" title={service.h1} lede={service.description} crumbs={crumbs} />
+      <PageHero
+        eyebrow="Consultation"
+        title={service.h1}
+        lede={service.description}
+        crumbs={crumbs}
+      />
 
       <article className="section">
         <div className="page-wrap grid gap-14 lg:grid-cols-[minmax(0,1fr)_18rem]">
@@ -85,30 +90,39 @@ export default async function ServicePage({
               ))}
             </div>
 
-            <h2 className="mt-12 font-display text-3xl text-ink">Who this may be relevant for</h2>
+            <h2 className="mt-12 font-display text-3xl text-ink">
+              Who this may be relevant for
+            </h2>
             <ul className="mt-4 list-disc space-y-2 pl-5 leading-relaxed text-bark">
               {service.relevantFor.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
 
-            <h2 className="mt-12 font-display text-3xl text-ink">What the healing involves</h2>
+            <h2 className="mt-12 font-display text-3xl text-ink">
+              What the consultation involves
+            </h2>
             <ul className="mt-4 list-disc space-y-2 pl-5 leading-relaxed text-bark">
               {service.involves.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
 
-            <h2 className="mt-12 font-display text-3xl text-ink">What you can expect</h2>
+            <h2 className="mt-12 font-display text-3xl text-ink">
+              What you can expect
+            </h2>
             <div className="mt-4 space-y-3 leading-relaxed text-bark">
               {service.expect.map((item) => (
                 <p key={item}>{item}</p>
               ))}
             </div>
 
-            <h2 className="mt-12 font-display text-3xl text-ink">How the work is done</h2>
+            <h2 className="mt-12 font-display text-3xl text-ink">
+              How the work is done
+            </h2>
             <p className="mt-4 leading-relaxed text-bark">
-              The same five steps apply here. You agree the time and the fee, then the healing begins.
+              The same five steps apply here. You agree the time and the fee, then the
+              guidance begins.
             </p>
             <ol className="mt-6 space-y-5">
               {processSteps.map((step, index) => (
@@ -121,7 +135,7 @@ export default async function ServicePage({
             </ol>
             <p className="mt-4">
               <Link href="/how-it-works" className="link">
-                How the healing is arranged
+                How a consultation is arranged
               </Link>
             </p>
 
@@ -138,15 +152,21 @@ export default async function ServicePage({
             ) : null}
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-              <Link href="/contact#enquiry" className="btn btn-primary" data-track="consultation_cta_click">
-                Request the Healing
+              <Link
+                href="/contact#enquiry"
+                className="btn btn-primary"
+                data-track="consultation_cta_click"
+              >
+                Request a Consultation
               </Link>
               <WhatsAppButton />
             </div>
           </div>
 
           <aside className="h-fit border border-line bg-cream p-6 lg:sticky lg:top-24">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">Related</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">
+              Related
+            </p>
             <ul className="mt-4 space-y-3">
               {related.map((item) => (
                 <li key={item.slug}>
@@ -165,7 +185,10 @@ export default async function ServicePage({
         </div>
       </article>
 
-      <CTASection id={`${service.slug}-cta`} title="Request this healing" />
+      <CTASection
+        id={`${service.slug}-cta`}
+        title="Request this consultation"
+      />
     </>
   );
 }

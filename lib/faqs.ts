@@ -2,68 +2,63 @@ import type { FaqItem } from "@/lib/schema";
 
 export const faqs: FaqItem[] = [
   {
-    question: "What does House of Amathongo do?",
+    question: "What is a spiritual consultation?",
     answer:
-      "House of Amathongo is a traditional African healer. The work is the kind people still call a witch doctor: ancestral divination, political power, court cases, cleansing, protection, and traditional remedies. You bring the trouble. House of Amathongo works on it.",
+      "It is a private sitting with Amani. You explain the difficulty in front of you, and you receive traditional spiritual guidance aimed at that situation: direction for love, family, work, protection, or a personal matter that needs a way through. The guidance is proven by the outcomes clients keep.",
   },
   {
-    question: "How do I ask for the healing?",
+    question: "How do I book a consultation?",
     answer:
-      "Message on WhatsApp, call, or use the contact form. Say what you want worked on and whether you can meet or must speak remotely. House of Amathongo confirms the time and the fee before the work begins.",
+      "Message on WhatsApp, call, or use the contact form. Say what you want help with and whether you prefer to meet or to speak remotely. Amani confirms the time and the fee before you begin.",
   },
   {
-    question: "Is the work private?",
+    question: "Are consultations confidential?",
     answer:
-      "Yes. Your story stays with the healing. Share what House of Amathongo needs in order to work, and leave out passwords, bank details, and copies of identity documents.",
+      "Yes. Your story stays private. Share what Amani needs in order to help, and leave out passwords, bank details, and copies of identity documents.",
   },
   {
-    question: "Can the healing be done from outside Uganda?",
+    question: "Can I consult from outside Uganda?",
     answer:
-      "Yes. People in Kampala can arrange a visit. People elsewhere in Uganda or abroad can have the work done by phone or WhatsApp. Say where you are when you enquire.",
+      "Yes. People in Kampala can arrange a visit, and people elsewhere in Uganda or abroad can consult by phone or WhatsApp. Say where you are when you enquire, and Amani will set the consultation up in the way that fits.",
   },
   {
-    question: "How long does the work take?",
+    question: "How long does a consultation take?",
     answer:
-      "Long enough to read the trouble and do the healing for it. The time is agreed when you book, so you can set it aside.",
+      "Long enough to understand the problem and give you guidance for it. The time is agreed when you book, so you can set it aside.",
   },
   {
     question: "Do I need to visit in person?",
     answer:
-      "A visit is available for people in and around Kampala once the meeting place is confirmed. If you are farther away, phone or WhatsApp healing is available for most troubles.",
+      "A visit is available for people in and around Kampala once the meeting place is confirmed. If you are farther away, a phone or WhatsApp consultation is available for most concerns.",
   },
   {
-    question: "What should I bring?",
+    question: "What should I bring to a consultation?",
     answer:
-      "Bring a clear account of what is happening: who is involved, when it started, and what you want changed. That is enough for House of Amathongo to work with. You do not need to bring objects from the house unless House of Amathongo asks.",
+      "Bring a clear account of what is happening: who is involved, when it started, and what you want to see change. That is enough for Amani to work with.",
   },
   {
-    question: "How much does the healing cost?",
+    question: "How much does a consultation cost?",
     answer:
-      "The fee is agreed with you before the work, so you know it in advance. Ask when you enquire.",
+      "The fee is agreed with you before the consultation, so you know it in advance. Ask when you enquire.",
   },
   {
-    question: "What can the healer work on?",
+    question: "What kind of help can I ask for?",
     answer:
-      "Political power that is blocked, a court case you want won, money and business that will not move, a body or spirit that feels heavy, a home that needs cleansing and protection, and family trouble. Tell House of Amathongo the real problem. The ritual, the cleansing, or the remedy is built around it.",
+      "People come for love and relationships, marriage and family peace, business and money worries, traditional wellness, spiritual protection, and personal decisions. Tell Amani the real problem. The guidance is built around it.",
   },
   {
-    question: "What results do people keep?",
+    question: "Can I contact Amani through WhatsApp?",
     answer:
-      "People return, and they send family, when the work has done what they asked: a case won, political power opened, a house that feels clean, money that can stay, or a body that can rest. That is the healing House of Amathongo is known for. It is not a medical cure.",
-  },
-  {
-    question: "Can I reach House of Amathongo on WhatsApp?",
-    answer:
-      "Yes. Use the WhatsApp button on any page. It opens a chat with House of Amathongo.",
+      "Yes. Use the WhatsApp button on any page. If a number has not been published yet, the button opens the contact form so your message still gets through.",
   },
 ];
 
 export const homeFaqs = faqs.filter((faq) =>
   [
-    "How do I ask for the healing?",
-    "Is the work private?",
-    "What should I bring?",
-    "How much does the healing cost?",
-    "Can I reach House of Amathongo on WhatsApp?",
+    "What is a spiritual consultation?",
+    "How do I book a consultation?",
+    "Are consultations confidential?",
+    "What kind of help can I ask for?",
+    "Can I contact Amani through WhatsApp?",
   ].includes(faq.question),
 );

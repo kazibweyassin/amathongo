@@ -12,9 +12,9 @@ const crumbs = [
 ];
 
 export const metadata = buildMetadata({
-  title: "Traditional African Healing in Uganda",
+  title: "Traditional Spiritual Consultations in Uganda — Proven Guidance",
   description:
-    "Healing by a traditional African healer in Uganda: political power, court cases, money, cleansing, protection, and remedies. Read the work and the result each one is known for.",
+    "Proven traditional consultations in Uganda for love, marriage, family, business, protection, healing, and personal decisions. Read the guidance and the result each one is known for.",
   path: "/services",
 });
 
@@ -24,8 +24,8 @@ export default function ServicesPage() {
       <JsonLd data={breadcrumbJson(crumbs)} />
       <PageHero
         eyebrow="Services"
-        title="The healing, named plainly"
-        lede="Each working is private and built around the change you want kept: a case won, political power opened, a house cleansed, or money that can stay."
+        title="Consultations built around your situation"
+        lede="Each consultation is private and shaped to the change you want: a relationship restored, a home at peace, a livelihood steadied, or a spirit at rest. The guidance is proven — clients return and refer others."
         crumbs={crumbs}
       />
       <section className="section">
@@ -35,8 +35,8 @@ export default function ServicesPage() {
       </section>
       <CTASection
         id="services-cta"
-        title="Not sure which healing you need?"
-        text="Send a short note about the trouble and the result you want kept. House of Amathongo will say which healing it needs and when the work can begin."
+        title="Not sure which consultation you need?"
+        text="Send a short note about the trouble and the change you want. Amani will say which consultation it needs and when it can begin."
       />
     </>
   );

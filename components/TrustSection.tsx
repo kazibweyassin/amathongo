@@ -2,20 +2,20 @@ import { SectionHeading } from "@/components/SectionHeading";
 
 const reasons = [
   {
-    title: "The work is done on your trouble",
-    text: "A blocked seat, a court case, money that will not stay, a heavy body, or a house that feels attacked. You name it. House of Amathongo does the healing for that life.",
+    title: "Proven Results",
+    text: "Over a decade of guiding Ugandans and the diaspora. Clients return because the guidance works — and they refer their families and friends.",
   },
   {
-    title: "It stays private",
-    text: "The healing stays between you and House of Amathongo. People speak freely because the ritual has to fit the life they actually have.",
+    title: "Private & Confidential",
+    text: "The consultation stays between you and Amani. You can speak freely about what you want changed. Your story is not shared.",
   },
   {
-    title: "People keep the result",
-    text: "A case won. Political power opened. A house cleansed. A business that can hold. People return when that result has held, and they ask for another sitting when the work needs it.",
+    title: "A Clear Way Forward",
+    text: "You leave with traditional guidance you can use immediately, and a follow-up when the matter needs more than one conversation — included in the agreement.",
   },
   {
-    title: "Kampala, and far beyond it",
-    text: "The healer is based in Uganda. People elsewhere have the same work done by phone or WhatsApp.",
+    title: "Here in Uganda — Available Worldwide",
+    text: "Kampala is the home of the practice. People elsewhere in Uganda or abroad consult by phone or WhatsApp and receive the same attention and proven approach.",
   },
 ];
 
@@ -25,9 +25,9 @@ export function TrustSection() {
       <div className="page-wrap">
         <SectionHeading
           id="why-amani"
-          eyebrow="Why people enquire"
-          title="Why people choose House of Amathongo"
-          intro="People choose House of Amathongo when they want a traditional African healer to work on a trouble like theirs, and they return when that healing has held."
+          eyebrow="Why people choose Amani"
+          title="Why Amani, and why clients return"
+          intro="People choose Amani when they want traditional help that takes their situation seriously, delivers real outcomes, and shows them a way through it. The guidance works — that is why clients come back and refer others."
         />
         <ul className="mt-12 grid gap-10 md:grid-cols-2">
           {reasons.map((reason, index) => (

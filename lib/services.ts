@@ -167,199 +167,199 @@ export const services: Service[] = [
   },
   {
     slug: "business-financial",
-    title: "Money & Business Rituals",
+    title: "Business & Financial Guidance",
     description:
-      "Rituals for a business that has gone quiet and money that will not stay. The result people keep is work that can hold what they earn.",
-    metaTitle: "Money and Business Rituals in Uganda",
+      "Proven traditional guidance for a business that has slowed and for money worries that need a steadier path. Helping Ugandan livelihoods stabilize and grow for over a decade.",
+    metaTitle: "Business and Financial Guidance in Uganda — Proven Results",
     metaDescription:
-      "Money and business rituals with a traditional African healer in Uganda. Clear a blockage, steady a shop, and protect what you have already built.",
-    h1: "Money and business rituals",
+      "Business and financial guidance in Uganda. Amani helps with a struggling livelihood, protection of what you have built, and a clearer way forward. Proven outcomes.",
+    h1: "Business and financial guidance — steady your livelihood",
     intro: [
-      "A shop goes quiet, a debt sits too long, or money leaves a house as fast as it enters. People bring that livelihood to House of Amathongo for traditional work, not for a lecture about business.",
-      "The ritual looks at the blockage on the work you describe: bad luck, jealousy, a spiritual hand on the money, or a decision you cannot make. The result people keep is a livelihood that can hold. It is not a promise of sudden wealth.",
+      "A shop goes quiet, a debt sits too long, or a person cannot tell whether to stay in a job or begin something new. People bring those livelihood worries to Amani because they want traditional guidance as well as their own effort.",
+      "The consultation looks at the business or the money problem you describe and offers direction for stability, protection of what you have already built, and a clearer path for the work ahead. Business owners and workers return because the guidance produces tangible results.",
     ],
     relevantFor: [
-      "A business is slow, new, or weighed down, and you want the blockage cleared.",
-      "Money comes in and does not stay.",
-      "You must decide whether to stay in work, change it, or start again.",
-      "Family money has become a quarrel.",
+      "A business is slow, new, or weighed down by debt, and you want help steadying it — with proven guidance.",
+      "You are deciding whether to stay in work, change it, or start again.",
+      "Money in the family has become a quarrel and you want guidance before you act.",
+      "You want spiritual support for the livelihood you are trying to build — support that delivers.",
     ],
     involves: [
-      "A plain account of the work or the money trouble.",
-      "A ritual for stability, protection of what you have built, and the decision in front of you.",
-      "What you are to do in the business itself while the work is in motion.",
-      "Another sitting if the situation needs to be revisited.",
+      "A plain description of the work or the money worry.",
+      "Traditional guidance for stability and for the decision in front of you.",
+      "Attention to what you can do next in the business itself.",
+      "A follow-up if the situation needs to be revisited.",
     ],
     expect: [
-      "Healing aimed at a steadier livelihood. That is the result people return to keep.",
-      "A private working on the real numbers and the real fear.",
-      "Room to keep an accountant or a lawyer where contracts, tax, or debt need them.",
+      "Guidance aimed at a steadier livelihood and protection of your effort — proven by client outcomes.",
+      "A private conversation about the real numbers and the real fear, spoken in ordinary language.",
+      "Room to keep your accountant or lawyer involved where contracts, tax, or debt need them.",
     ],
     faqs: [
       {
-        question: "Can you work on a business that is failing?",
+        question: "Can I consult about a business that is failing?",
         answer:
-          "Yes. Say what changed, what you still have, and what you want recovered. House of Amathongo does the ritual for that situation. People have used it to steady the work again.",
+          "Yes. Explain what changed, what you still have, and what you want to recover. Amani gives guidance for that situation. Many businesses have stabilized after consultation.",
       },
       {
         question: "Is this only for shop owners?",
         answer:
-          "No. People also bring employment, family money, and new work.",
+          "No. People consult about employment, family money, and new work as well as about a trading business. The guidance adapts to your livelihood.",
       },
       {
         question: "Do I need to bring my accounts?",
         answer:
-          "Bring what helps you explain the trouble. Do not hand over bank cards or original documents.",
+          "Bring what helps you explain the problem. You do not need to hand over bank cards or original documents.",
       },
     ],
     related: ["personal-family-guidance", "spiritual-consultation", "spiritual-protection"],
   },
   {
     slug: "traditional-healing",
-    title: "Traditional Healing & Remedies",
+    title: "Traditional Healing & Wellness",
     description:
-      "Traditional healing for a body and spirit that feel heavy. People who came sleepless or worn down have used the remedies to feel steady again, beside their doctor.",
-    metaTitle: "Traditional Healer in Uganda",
+      "Proven traditional support for strength, rest, and balance when body and spirit both feel heavy. A decade of helping people feel steadier.",
+    metaTitle: "Traditional Healing in Uganda — Proven Wellness Guidance",
     metaDescription:
-      "Traditional African healing and remedies in Uganda for rest, strength, and a heavy spirit. House of Amathongo works beside your doctor, not instead of a hospital.",
-    h1: "Traditional healing and remedies",
+      "Traditional healing consultations in Uganda for people seeking strength, rest, and spiritual balance. Speak with Amani in private. Proven outcomes.",
+    h1: "Traditional healing and wellness — feel steady again",
     intro: [
-      "Traditional healing in Uganda is the work of listening when a person is unwell in body, sleep, or spirit, and then treating that weight in the old way: cleansing, prayer, and a remedy prepared for that person.",
-      "You describe how you have been living. House of Amathongo does the healing that matches you. People who came tired, sleepless, or heavy have felt steady again. Keep the medicine a doctor has given you. This is not a cure for a named disease, and a medical emergency belongs in a hospital.",
+      "Traditional healing in Uganda is a long practice of listening when a person feels unwell in body, sleep, or spirit. Amani offers that kind of consultation: a private sitting for people who want to feel steadier and to receive guidance for their wellbeing.",
+      "You describe how you have been living and what feels wrong. Amani responds with traditional guidance aimed at rest, strength, and peace of mind, so the help matches the person in the room. Clients return because the guidance produces real improvement.",
     ],
     relevantFor: [
-      "Sleep, worry, or a heavy spirit is disturbing daily life.",
-      "You want a traditional remedy, not a general talk about wellness.",
+      "You want traditional support for how you have been feeling — with proven results.",
+      "Sleep, worry, or a heavy mood is disturbing daily life.",
       "The family is caring for someone and needs spiritual support around that burden.",
-      "You want the person treated as a whole, body and spirit together.",
+      "You want wellness guidance that treats you as a whole person.",
     ],
     involves: [
-      "A hearing of what you are suffering.",
-      "Cleansing and a traditional remedy for that suffering.",
-      "What to do in the days after the healing.",
-      "A clear word to stay with the clinic if a doctor is already treating you.",
+      "Listening to what you are experiencing.",
+      "Traditional guidance for wellness, rest, and peace of mind.",
+      "Advice you can follow in the days after the consultation.",
+      "Encouragement to keep clinic care where a doctor is already treating you.",
     ],
     expect: [
-      "Healing aimed at rest and strength. That is the result people have kept.",
-      "A remedy that belongs to your situation.",
+      "A calm consultation focused on your strength and balance.",
+      "Guidance that belongs to your situation, not a single remedy for every person.",
       "Respect for medical care. If you are seriously unwell, see a hospital as well.",
     ],
     faqs: [
       {
-        question: "Who is this healing for?",
+        question: "Who is this consultation for?",
         answer:
-          "Anyone carrying poor sleep, a heavy spirit, long worry, or the strain of caring for family. People use it to feel steady enough for ordinary days again.",
+          "Anyone who wants traditional support for wellbeing: poor sleep, a heavy spirit, long worry, or the strain of caring for family. People report feeling steadier after their consultation.",
       },
       {
         question: "Should I stop my medicine?",
         answer:
-          "No. Keep the treatment a doctor has given you. The healing sits beside that care. It does not replace it.",
+          "No. Keep the treatment a doctor has given you. The consultation is spiritual support alongside that care.",
       },
       {
         question: "Can I speak about fertility or a long illness?",
         answer:
-          "You can bring the worry. House of Amathongo offers traditional healing for the burden you are carrying and will tell you to stay with your clinic where the body needs a doctor.",
+          "You can bring the worry. Amani offers traditional guidance for the burden you are carrying and will tell you to stay with your clinic where health needs a doctor.",
       },
     ],
     related: ["spiritual-protection", "spiritual-consultation", "personal-family-guidance"],
   },
   {
     slug: "spiritual-protection",
-    title: "Cleansing & Protection",
+    title: "Spiritual Protection & Guidance",
     description:
-      "Cleansing and protection for a home or a life that feels exposed, cursed, or disturbed. The result families keep is a house that feels covered again.",
-    metaTitle: "Spiritual Cleansing and Protection in Uganda",
+      "Proven protection and cleansing for a home or a life that feels exposed, disturbed, or in need of covering. A decade of restoring peace in Ugandan homes.",
+    metaTitle: "Spiritual Protection and Guidance in Uganda — Proven Results",
     metaDescription:
-      "Cleansing and protection with a traditional African healer in Uganda. Clear a disturbed home and cover the people in it. Kampala and WhatsApp.",
-    h1: "Cleansing and protection",
+      "Spiritual protection in Uganda for the home and family. Amani offers traditional guidance to restore peace and covering. Private consultations. Proven outcomes.",
+    h1: "Spiritual protection and guidance — restore peace in your home",
     intro: [
-      "Some houses stop feeling like home. Sleep breaks. Worry follows a person to work. A family senses that something has been sent against them, or that peace has left the compound. House of Amathongo cleanses that disturbance and puts protection on the people and the place.",
-      "You describe what changed. The work covers the home, clears what feels wrong, and restores a sense of safety. Families come back when the house feels calm enough to live in again.",
+      "Some houses stop feeling like home. Sleep breaks, worry follows a person to work, or a family senses that peace has left the compound. Amani consults with people who want spiritual protection and a return to calm.",
+      "You describe what changed. The consultation offers traditional guidance for covering the home and the people in it, cleansing what feels disturbed, and restoring a sense of safety in daily life. Families return because the protection holds.",
     ],
     relevantFor: [
-      "The home feels unsettled, watched, or under a spiritual attack.",
+      "The home feels unsettled and you want protection for the family — with proven guidance.",
       "Sleep, work, or peace of mind has been disturbed.",
-      "You want a traditional cleansing for the whole household.",
-      "You want the matter handled privately, without a spectacle.",
+      "You want a traditional cleansing and guidance for the household.",
+      "You want the matter handled privately and calmly.",
     ],
     involves: [
       "A careful account of what changed and who is affected.",
-      "Cleansing and protection for the home and the people in it.",
-      "What you are to do to keep the household steady afterward.",
-      "A direct word if a living person is the threat and the police should be called.",
+      "Traditional guidance for protection and for peace in the home.",
+      "Steps you can take to steady the household afterward.",
+      "A direct word if a living person is the threat and the police should be involved.",
     ],
     expect: [
-      "Work aimed at a cleansed, covered, quieter home. That is the result families keep.",
-      "Healing that takes the fear seriously.",
-      "Nothing that asks you to harm anyone or to spread an accusation through the family.",
+      "Guidance aimed at protection, cleansing, and a quieter home — proven by client outcomes.",
+      "A consultation that takes the fear seriously without turning it into a spectacle.",
+      "Help that does not ask you to harm anyone or to spread an accusation through the family.",
     ],
     faqs: [
       {
-        question: "Can this cover a whole household?",
+        question: "Can this be for a whole household?",
         answer:
-          "Yes. Say who lives there and what each person has noticed. The cleansing can cover the home. Households have used it to feel settled again.",
+          "Yes. Say who lives there and what each person has noticed. The guidance can cover the home, not only one person. Households have reported feeling settled again.",
       },
       {
-        question: "What if a person is threatening me?",
+        question: "What if I am being threatened by someone?",
         answer:
-          "Tell House of Amathongo, and also tell the police. Spiritual protection supports you. It does not replace help when a person is putting you in danger.",
+          "Tell Amani, and also tell the police or a trusted local authority. Spiritual guidance supports you. It does not replace help when a person is putting you in danger.",
       },
       {
         question: "Do I need to bring anything from the house?",
         answer:
-          "No, unless House of Amathongo asks. Your account of what is happening is what the work uses.",
+          "No. Your account of what is happening is what the consultation uses.",
       },
     ],
     related: ["spiritual-consultation", "traditional-healing", "personal-family-guidance"],
   },
   {
     slug: "personal-family-guidance",
-    title: "Family Troubles",
+    title: "Personal & Family Concerns",
     description:
-      "Divination and healing for family duty, study, travel, grief, and decisions that will not settle. People leave with a way that has been opened.",
-    metaTitle: "Family Healing in Uganda",
+      "Proven guidance for private decisions, family duty, study, travel, and work that will not settle on their own. A decade of helping people find their way forward.",
+    metaTitle: "Personal and Family Guidance in Uganda — Proven Results",
     metaDescription:
-      "Family healing and divination in Uganda for duty, study, travel, grief, and decisions that will not settle. A traditional African healer in Kampala.",
-    h1: "Healing for family troubles",
+      "Personal and family guidance in Uganda for study, work, travel, and decisions at home. Speak privately with Amani and get a way forward. Proven outcomes.",
+    h1: "Personal and family guidance — find your way forward",
     intro: [
-      "Some troubles do not fit one name. A parent’s demand, a journey, a job, an exam, or grief the rest of the family will not touch. House of Amathongo reads them one by one and does the healing that opens the way.",
-      "You bring the duty that is sitting on you. The divination separates what you can do from what you are waiting on, and the work is done for that path. People come back when the next trouble arrives.",
+      "Some problems do not fit one name. A parent's expectation, a plan to travel, a job you want, an exam that matters, or grief the rest of the family has no time for. Amani takes these personal and family concerns one by one.",
+      "You bring the decision or the duty that is sitting on you. The consultation gives traditional guidance for that path, so you can see what to do next and how to carry the family with you. Clients return because the guidance works.",
     ],
     relevantFor: [
-      "A decision is stuck and you want it read before you commit.",
-      "Family responsibility is heavy and you need it worked on in private.",
-      "Study, travel, or work is blocked and the worry has entered the home.",
+      "You are facing a decision and want traditional direction before you commit — with proven guidance.",
+      "Family responsibility is heavy and you need a private place to speak.",
+      "Study, travel, or work is stuck and the worry has entered the home.",
       "You have a question you are not ready to raise with relatives.",
     ],
     involves: [
-      "A hearing of the decision or the duty.",
-      "Divination that separates your part from what you are waiting on.",
-      "Healing for the blockage, and help with how to speak to the family.",
-      "Another sitting when the situation moves.",
+      "Listening to the decision or the duty in front of you.",
+      "Guidance that separates what you can do from what you are waiting on.",
+      "Help with how to speak to family about it.",
+      "A follow-up when the situation moves.",
     ],
     expect: [
-      "A reading and a healing that point to a next step you can keep.",
-      "Privacy inside the family. What you tell House of Amathongo is not passed on.",
+      "A consultation that stays with your circumstances and points to a next step.",
+      "Privacy inside the family: what you share with Amani is not passed on.",
       "Support while you also handle applications, studies, or employers in the ordinary way.",
     ],
     faqs: [
       {
         question: "Can I ask about work, study, or travel?",
         answer:
-          "Yes. Bring the worry and what you are hoping to achieve. House of Amathongo reads it and does the work for that effort and for the family around it.",
+          "Yes. Bring the worry and what you are hoping to achieve. Amani gives guidance for that effort and for the family around it. People report clearer decisions after consulting.",
       },
       {
         question: "Is this only for urgent problems?",
         answer:
-          "No. People also come before a decision, while there is still time to choose well.",
+          "No. People also consult before a decision, while there is still time to choose well.",
       },
       {
-        question: "Can I come without telling my family?",
+        question: "Can I consult without telling my family?",
         answer:
-          "Yes. The work is private.",
+          "Yes. The conversation is confidential.",
       },
     ],
-    related: ["political-power", "court-cases", "spiritual-consultation"],
+    related: ["marriage-family", "spiritual-consultation", "business-financial"],
   },
 ];
 
