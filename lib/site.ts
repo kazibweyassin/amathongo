@@ -8,7 +8,7 @@ export const site = {
   disclaimerLong:
     "House of Amathongo does traditional African healing: rituals, cleansing, divination, and remedies for political power, court cases, the home, work, and the body. People return when that work has held. It is not a medical cure. For a medical emergency, go to a hospital.",
   whatsappMessage:
-    "Hello House of Amathongo, I need traditional healing. This is the trouble I want worked on.",
+    "Hello House of Amathongo, I would like to schedule a traditional consultation. I am seeking spiritual guidance ,  holistic clarity and solution for my current situation.",
   locale: "en_UG",
 } as const;
 
