@@ -25,7 +25,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Services"
         title="Consultations built around your situation"
-        lede="Each consultation is private and shaped to the change you want: a relationship restored, a home at peace, a livelihood steadied, or a spirit at rest. The guidance is proven — clients return and refer others."
+        lede="Each consultation is private and shaped to the change you want: a relationship restored, a home at peace, a livelihood steadied, or a spirit at rest. The guidance is proven, clients return and refer others."
         crumbs={crumbs}
       />
       <section className="section">
