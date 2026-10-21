@@ -57,12 +57,38 @@ export function rootMetadata(): Metadata {
     creator: site.name,
     category: "Traditional African healer",
     keywords: [
+      // --- Bazungu / Western Target Audience (Wellness & Cultural Tourism) ---
+      "authentic cultural experiences Kampala",
+      "traditional African rituals tour Uganda",
+      "learn about African spirituality Uganda",
+      "cultural heritage tours Kampala",
+      "African plant medicine retreat",
+      "holistic healing Uganda",
+      "traditional herbal medicine workshops East Africa",
+      "African shamanism and energy healing",
+      "spiritual cleansing retreat Uganda",
+      "ancestral healing ceremony Africa",
+      "holistic wellness",
+
+      // --- Core / Search Volume Terminology ---
       "traditional African healer Uganda",
-      "witch doctor Uganda",
       "traditional healer Kampala",
-      "political power and court cases Uganda",
       "spiritual cleansing Uganda",
       "ancestral divination Kampala",
+      "traditional healing and wellness Uganda",
+      "african traditional healer",
+      "African traditional healer near me",
+      "omusawo omuganda",
+
+      // --- High-Stakes Intent (Used carefully for context grounding) ---
+      "Remove bad luck spiritual healer",
+      "political power and court cases Uganda",
+      "Spiritual solutions for court cases",
+      "Powerful traditional healers in Africa",
+      "Real native doctor Kampala",
+      "Spiritual spell caster Uganda",
+      "witch doctor Uganda",
+      "top witch doctor in africa"
     ],
     alternates: {
       canonical: "/",

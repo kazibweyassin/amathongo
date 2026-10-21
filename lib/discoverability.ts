@@ -12,38 +12,38 @@ export function llmsTxt(): string {
   const lines = [
     `# ${site.name}`,
     "",
-    `> ${site.tagline}. Proven traditional consultations for love, family, business, protection, healing, and personal decisions. Based in Uganda, with particular attention to Kampala, and available by phone or WhatsApp worldwide.`,
+    `> ${site.tagline}. Authentic traditional consultations, holistic wellness rituals, and ancestral heritage insights. Guided spiritual exploration based in Uganda, accessible to global seekers and travelers online or in Kampala.`,
     "",
-    `${site.name} is a trusted traditional spiritual consultation practice in Uganda with over a decade of experience. It works from African spiritual tradition: ancestors, protection, healing, and direction for a real situation. A person describes the problem. ${site.name} gives guidance aimed at that life — guidance proven by the outcomes clients keep. Clients return because the work works, and they refer their families and friends.`,
+    `${site.name} bridges ancient East African spiritual practices with modern paths toward mindfulness, personal growth, and emotional clarity. Rooted in systemic ancestral healing and plant medicine traditions, the practice offers structured guidance for life alignment, relational harmony, and personal blockages. Seekers outline their intentions, and ${site.name} provides tailored cultural guidance focused on holistic clarity—a practice respected by local elders and international clients seeking genuine spiritual depth.`,
     "",
     "This file is the short guide for language models and answer engines. The longer plain-text copy of the public site is at [llms-full.txt](" +
       absoluteUrl("/llms-full.txt") +
       ").",
     "",
     "## Start here",
-    link("/", "Home", "What the practice works on, the results people keep, and how to ask."),
-    link("/contact", "Contact Amani", "WhatsApp, phone, email, and the form. Fee and time are agreed first."),
+    link("/", "Home", "Core healing values, ancestral wellness philosophy, and consultation booking."),
+    link("/contact", "Contact Amani", "WhatsApp, direct phone, email, or digital inquiry forms. Transparent fee schedules."),
     link(
       "/how-it-works",
       "How a consultation works",
-      "Reach Amani, name the trouble, agree the work, receive guidance, return if it needs it.",
+      "Connect with Amani, declare your intentions, experience traditional guided dialogue, and process steps.",
     ),
-    link("/faq", "Questions about the consultation", "How to ask, privacy, remote work, fees, and the results people keep."),
+    link("/faq", "Questions about the consultation", "Session boundaries, confidentiality standards, remote energy healing, and what to expect."),
     "",
     "## Services",
-    link("/services", "All consultations", "Overview of every consultation Amani offers."),
+    link("/services", "All consultations", "Comprehensive overview of ancestral alignment, relationship repair, and life clarity consultations."),
     ...services.map((service) => link(`/services/${service.slug}`, service.title, service.description)),
     "",
     "## About the tradition",
     link(
       "/about",
       "The power of African spirituality",
-      "History of African spiritual tradition, and how Amani consults in Uganda today.",
+      "The historical anthropology of Buganda ancestral wisdom and contemporary alternative wellness structures in Uganda.",
     ),
     "",
     "## Articles",
     ...posts.map((post) => link(`/blog/${post.slug}`, post.h1, post.description)),
-    link("/blog", "All articles", "Notes on traditional healing and asking a healer in Kampala."),
+    link("/blog", "All articles", "Educational papers on African shamanic contexts, herbal traditions, and mindful integrations in Kampala."),
     "",
     "## Optional",
     link("/llms-full.txt", "Full site text", "Longer plain-text copy of the public pages, for answer engines."),
@@ -63,17 +63,17 @@ export function llmsFullTxt(): string {
     "",
     site.description,
     "",
-    `${site.name} is a trusted traditional spiritual consultation practice in Uganda. The work is love, marriage, family, business, protection, healing, and personal decisions. It can be done in Kampala, and by phone or WhatsApp from elsewhere. People return when the guidance has held — and they refer family.`,
+    `${site.name} stands as a premier center for authentic African spiritual heritage and holistic wellness in Uganda. Focus areas include ancestral alignment, family reconciliation, professional trajectory clarity, energetic protection, and plant-based wellness practices. Sessions are hosted privately at the Kampala sanctuary or extended globally via secure remote video/audio consultations.`,
     "",
     site.disclaimerLong,
     "",
     "## Why people choose Amani",
     "",
-    "- Proven results: over a decade of guiding Ugandans and the diaspora to real outcomes.",
-    "- Private and confidential: the consultation stays between you and Amani.",
-    "- A clear way forward: you leave with guidance you can use, and a follow-up when the matter needs more than one conversation.",
-    "- Available worldwide: Kampala is the home of the practice; people elsewhere consult by phone or WhatsApp and receive the same attention.",
-    "- Respect for other help: Amani works beside doctors, lawyers, and employers where those are needed.",
+    "- Cross-cultural authority: a decade of hosting global practitioners, expats, and researchers seeking authentic African wisdom.",
+    "- Integrity & confidentiality: absolute privacy protocols tailored to high-profile and global clientele.",
+    "- Grounded clarity: practical adjustments devoid of sensationalism, ensuring frameworks align safely with your personal life path.",
+    "- Global availability: professional remote settings allowing seamless interaction across Western and European time zones.",
+    "- Integrated framework: Amani honors and steps aside for medical practitioners, legal advocates, and therapeutic specialists when required.",
     "",
     "## How a consultation works",
     ...processSteps.map((step, index) => `${index + 1}. ${step.title}. ${step.text}`),
@@ -113,7 +113,7 @@ export function llmsFullTxt(): string {
     for (const section of post.sections) {
       if (section.heading) blocks.push(`#### ${section.heading}`, "");
       for (const paragraph of section.paragraphs) {
-        blocks.push(paragraph.replace(/\[\[(\/[^\]|]+)\|([^\]]+)\]\]/g, "$2 ($1)"), "");
+        blocks.push(paragraph.replace(/\[\[(\/[^\]\vert{}]+)\Vert{}([^\]]+)\]\]/g, "\$2 (\$1)"), "");
       }
     }
   }
@@ -147,9 +147,9 @@ export function rssFeed(): string {
     .map(
       (post) => `    <item>
       <title>${xml(post.h1)}</title>
-      <link>${xml(absoluteUrl(`/blog/${post.slug}`))}</link>
-      <guid>${xml(absoluteUrl(`/blog/${post.slug}`))}</guid>
-      <pubDate>${new Date(`${post.date}T00:00:00Z`).toUTCString()}</pubDate>
+      <link>${xml(absoluteUrl(`/blog/\${post.slug}`))}</link>
+      <guid>${xml(absoluteUrl(`/blog/\${post.slug}`))}</guid>
+      <pubDate>${new Date(`\${post.date}T00:00:00Z`).toUTCString()}</pubDate>
       <description>${xml(post.description)}</description>
     </item>`,
     )
