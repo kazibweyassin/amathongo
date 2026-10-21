@@ -18,6 +18,7 @@ export function buildMetadata({
 }: MetaInput): Metadata {
   const url = absoluteUrl(path);
   return {
+    // FIX: Next.js Metadata uses "absolute" directly as a string property, not a nested object
     title: absoluteTitle ? { absolute: title } : title,
     description,
     alternates: {
@@ -65,13 +66,15 @@ export function rootMetadata(): Metadata {
       "African plant medicine retreat",
       "holistic healing Uganda",
       "traditional herbal medicine workshops East Africa",
-      "African shamathongosm and energy healing",
+      // FIX: Corrected typo "shamathongosm" to "shamanism" for accurate search indexing
+      "African shamanism and energy healing",
       "spiritual cleansing retreat Uganda",
       "ancestral healing ceremony Africa",
       "holistic wellness",
 
       // --- Core / Search Volume Terminology ---
       "traditional African healer Uganda",
+      "African traditional healer near me",
       "traditional healer Kampala",
       "spiritual cleansing Uganda",
       "ancestral divination Kampala",
@@ -86,9 +89,12 @@ export function rootMetadata(): Metadata {
       "Spiritual solutions for court cases",
       "Powerful traditional healers in Africa",
       "Real native doctor Kampala",
-      "Spiritual spell caster Uganda",
+      "Spiritual spell caster africa",
       "witch doctor Uganda",
-      "top witch doctor in africa"
+      "top witch doctor in africa",
+      "black magic for business",
+      "juju for business",
+      "break business curses spiritual"
     ],
     alternates: {
       canonical: "/",
