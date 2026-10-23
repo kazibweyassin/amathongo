@@ -10,6 +10,7 @@ import { blogPhotos } from "@/lib/photos";
 import { articleJson, breadcrumbJson } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { getService } from "@/lib/services";
+import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -61,7 +62,7 @@ export default async function BlogPostPage({
           headline: post.h1,
           description: post.description,
           date: post.date,
-          image: blogPhotos[post.slug]?.src,
+          image: blogPhotos[post.slug] ? absoluteUrl(blogPhotos[post.slug].src) : undefined,
         })}
       />
       <PageHero eyebrow="Article" title={post.h1} crumbs={crumbs} />

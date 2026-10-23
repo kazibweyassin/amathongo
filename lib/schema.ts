@@ -48,6 +48,11 @@ const areaServed = [
   { "@type": "City", name: "Kampala" },
 ];
 
+function serviceImage(slug: string) {
+  const photo = servicePhotos[slug];
+  return photo ? absoluteUrl(photo.src) : undefined;
+}
+
 function offerCatalog() {
   return {
     "@type": "OfferCatalog",
@@ -59,7 +64,7 @@ function offerCatalog() {
         name: service.title,
         description: service.description,
         url: absoluteUrl(`/services/${service.slug}`),
-        image: servicePhotos[service.slug]?.src,
+        image: serviceImage(service.slug),
         serviceType: service.title,
         areaServed,
         provider: {
@@ -144,7 +149,7 @@ export function serviceJson(service: {
     name: service.title,
     serviceType: service.h1,
     description: service.description,
-    image: servicePhotos[service.slug]?.src,
+    image: serviceImage(service.slug),
     url: absoluteUrl(`/services/${service.slug}`),
     areaServed,
     provider: {

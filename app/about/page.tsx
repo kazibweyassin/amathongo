@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
-import { Photo } from "@/components/Photo";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHero } from "@/components/PageHero";
-import { photos } from "@/lib/photos";
 import { breadcrumbJson } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import {
@@ -134,8 +132,8 @@ export default function AboutPage() {
         </section>
 
         <section className="section bg-cream" aria-labelledby="history">
-          <div className="page-wrap grid gap-12 lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start">
-            <div>
+          <div className="page-wrap">
+            <div className="max-w-3xl">
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">History</p>
               <h2 id="history" className="mt-3 font-display text-3xl text-ink md:text-4xl">
                 How the tradition came to the present
@@ -151,13 +149,6 @@ export default function AboutPage() {
                   </li>
                 ))}
               </ol>
-            </div>
-            <div className="lg:sticky lg:top-24">
-              <Photo
-                photo={photos.land}
-                ratio="4/5"
-                sizes="(min-width: 1024px) 20rem, 100vw"
-              />
             </div>
           </div>
         </section>
@@ -188,7 +179,6 @@ export default function AboutPage() {
         <section className="section bg-cream" aria-labelledby="uganda">
           <div className="page-wrap grid gap-10 lg:grid-cols-12">
             <div className="lg:col-span-5">
-              <Photo photo={photos.ankara} ratio="4/5" sizes="(min-width: 1024px) 36vw, 100vw" className="mb-8" />
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">Uganda</p>
               <h2 id="uganda" className="mt-3 font-display text-3xl text-ink md:text-4xl">
                 A Ugandan practice in an African inheritance
