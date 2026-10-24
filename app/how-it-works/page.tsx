@@ -82,7 +82,7 @@ export default function HowItWorksPage() {
           </div>
         </div>
         <div className="lg:sticky lg:top-24">
-          <Photo photo={photos.cowrie} ratio="4/5" sizes="(min-width: 1024px) 20rem, 100vw" />
+          <Photo photo={photos.ankaraPurple} ratio="4/5" sizes="(min-width: 1024px) 20rem, 100vw" />
         </div>
         </div>
       </article>

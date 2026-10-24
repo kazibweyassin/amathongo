@@ -1,10 +1,12 @@
 import { ContactForm } from "@/components/ContactForm";
 import { JsonLd } from "@/components/JsonLd";
+import { Photo } from "@/components/Photo";
 import { LocationPanel } from "@/components/LocationPanel";
 import { PageHero } from "@/components/PageHero";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { breadcrumbJson, localBusinessJson } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
+import { photos } from "@/lib/photos";
 import { contactIsPlaceholder } from "@/lib/site";
 
 const crumbs = [
@@ -44,6 +46,7 @@ export default function ContactPage() {
             </div>
           </div>
           <div>
+            <Photo photo={photos.savanna} ratio="16/9" sizes="(min-width: 1024px) 36rem, 100vw" className="mb-8" />
             <h2 className="font-display text-3xl text-ink">Phone, WhatsApp, and place</h2>
             {contactIsPlaceholder() ? (
               <p className="mt-3 leading-relaxed text-bark">
