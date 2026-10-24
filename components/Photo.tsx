@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import type { StockPhoto } from "@/lib/photos";
 
 const ratios = {
@@ -15,14 +14,12 @@ export function Photo({
   priority = false,
   sizes = "(min-width: 768px) 40vw, 100vw",
   className = "",
-  credit = true,
 }: {
   photo: StockPhoto;
   ratio?: keyof typeof ratios;
   priority?: boolean;
   sizes?: string;
   className?: string;
-  credit?: boolean;
 }) {
   return (
     <figure className={className}>
@@ -36,19 +33,6 @@ export function Photo({
           className="object-cover"
         />
       </div>
-      {credit ? (
-        <figcaption className="mt-2 text-xs text-muted">
-          Photo by{" "}
-          <Link
-            href={photo.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link"
-          >
-            Unsplash
-          </Link>
-        </figcaption>
-      ) : null}
     </figure>
   );
 }
