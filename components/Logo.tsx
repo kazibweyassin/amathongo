@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-interface LogoProps {}
-
 export function Logo() {
   return (
     <Link href="/" className="inline-flex items-center gap-3 no-underline" aria-label="House of Amathongo, home">
