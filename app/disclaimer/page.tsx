@@ -34,7 +34,7 @@ export default function DisclaimerPage() {
           </p>
           <p>
             Any decisions or actions taken based on the information or services
-            provided on this website are done at the individual's own
+            provided on this website are done at the individual&apos;s own
             responsibility. House of Amathongo shall not be held liable for any
             direct or indirect outcomes resulting from the use of the services.
           </p>
