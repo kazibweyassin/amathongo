@@ -20,13 +20,13 @@ export const services: Service[] = [
     slug: "spiritual-consultation",
     title: "Ancestral Divination",
     description:
-      "House of Amathongo reads the trouble through ancestral divination and does the healing that belongs to it. People return when that reading has moved the life they brought.",
-    metaTitle: "Ancestral Divination in Uganda",
+      "Spiritual consultation for personal, relationship, family, business, and spiritual concerns. House of Amathongo reads the trouble through ancestral divination and does the healing that belongs to it. People return when that reading has moved the life they brought.",
+    metaTitle: "Spiritual Consultation in Uganda — Ancestral Divination",
     metaDescription:
-      "Ancestral divination with a traditional African healer in Kampala or by WhatsApp. House of Amathongo reads the trouble and does the healing. People return when it has moved.",
-    h1: "Ancestral divination with a traditional healer",
+      "Spiritual consultation in Uganda with a traditional healer. House of Amathongo reads your trouble through ancestral divination and does the healing it calls for. Kampala and WhatsApp.",
+    h1: "Spiritual consultation — ancestral divination",
     intro: [
-      "This is not a talk about your problem. It is a divination. You set the situation down. House of Amathongo reads it in the ancestral way and does the healing the reading calls for: a ritual, a cleansing, a protection, or a remedy.",
+      "Papa Machwanchwa-style spiritual guidance, applied here in Uganda. You set the situation down. House of Amathongo reads it in the ancestral way and does the healing the reading calls for: a ritual, a cleansing, a protection, or a remedy.",
       "People in Kampala, across Uganda, and abroad come when power, a court case, the house, the work, or the body will not move on its own. They come back, and they send relatives, when the work has held.",
     ],
     relevantFor: [
@@ -71,14 +71,14 @@ export const services: Service[] = [
     slug: "political-power",
     title: "Political Power",
     description:
-      "Traditional work for people who want political power: a seat, an office, or influence that has been refused. People return when the position has opened.",
-    metaTitle: "Political Power in Uganda",
+      "Traditional work for people seeking a seat, office, or influence that has been refused — authority, luck, and personal power prepared according to traditional practices. People return when the position has opened.",
+    metaTitle: "Political Power in Uganda — Traditional Guidance",
     metaDescription:
-      "Traditional African healing for political power. House of Amathongo works on the seat, the office, and the influence you want. Kampala and WhatsApp.",
+      "Traditional guidance for political power in Uganda. Support for a seat, an office, or influence that has been refused. Kampala and WhatsApp.",
     h1: "Traditional work for political power",
     intro: [
-      "People come when a position is blocked, a campaign will not move, or authority keeps passing them by. House of Amathongo does the traditional work to open that power.",
-      "This is healer’s work, not a lecture about politics. You bring the seat, the office, or the influence you want. The ritual follows that story. People return when the position has opened.",
+      "Traditional work for people who want political power: a seat, an office, or influence that has been refused. Rituals performed to activate spiritual authority, protection, luck, and personal power.",
+      "People come when a position is blocked, a campaign will not move, or authority keeps passing them by. House of Amathongo does the traditional work to open that power. People return when the position has opened.",
     ],
     relevantFor: [
       "You want a seat, an office, or a place of authority.",
@@ -120,13 +120,13 @@ export const services: Service[] = [
     slug: "court-cases",
     title: "Court Cases",
     description:
-      "Traditional work for a court case you want decided in your favor. People return when the judgment has gone their way.",
-    metaTitle: "Court Cases in Uganda",
+      "Spiritual guidance and rituals for court cases and legal disputes — removing obstacles, strengthening your position, and helping the matter turn in your favor. People return when the judgment has gone their way.",
+    metaTitle: "Court Cases in Uganda — Traditional Spiritual Guidance",
     metaDescription:
-      "Traditional African healing for court cases. House of Amathongo works on the case you want won, whether it is coming or already before a judge. Kampala and WhatsApp.",
-    h1: "Traditional work for court cases",
+      "Traditional spiritual guidance for court cases in Uganda. House of Amathongo works on the case you want decided in your favor, whether it is coming or already before a judge. Kampala and WhatsApp.",
+    h1: "Traditional spiritual guidance for court cases",
     intro: [
-      "People come when a case is standing against them, a hearing is near, or a judgment has gone the wrong way. House of Amathongo does the traditional work so the case turns in their favor.",
+      "Spiritual guidance and rituals for court cases and legal disputes — removing obstacles, strengthening your position, and attracting favorable outcomes. People come when a case is standing against them, a hearing is near, or a judgment has gone the wrong way.",
       "This is healer’s work, not a lecture about the law. You bring the charge, the claim, or the dispute. The ritual follows that case. People return when the judgment has gone their way.",
     ],
     relevantFor: [
@@ -169,14 +169,14 @@ export const services: Service[] = [
     slug: "business-financial",
     title: "Business & Financial Guidance",
     description:
-      "Proven traditional guidance for a business that has slowed and for money worries that need a steadier path. Helping Ugandan livelihoods stabilize and grow for over a decade.",
-    metaTitle: "Business and Financial Guidance in Uganda — Proven Results",
+      "Traditional guidance for business growth and financial breakthrough — opening doors, attracting clients, clearing money setbacks, and removing spiritual blockages affecting livelihood. Helping Ugandan livelihoods stabilize and grow.",
+    metaTitle: "Business and Financial Guidance in Uganda — Traditional Support",
     metaDescription:
-      "Business and financial guidance in Uganda. amathongo helps with a struggling livelihood, protection of what you have built, and a clearer way forward. Proven outcomes.",
+      "Business and financial guidance in Uganda. Traditional support for struggling livelihoods, financial setbacks, and business stability. Speak with amathongo in private. Kampala and WhatsApp.",
     h1: "Business and financial guidance — steady your livelihood",
     intro: [
-      "A shop goes quiet, a debt sits too long, or a person cannot tell whether to stay in a job or begin something new. People bring those livelihood worries to amathongo because they want traditional guidance as well as their own effort.",
-      "The consultation looks at the business or the money problem you describe and offers direction for stability, protection of what you have already built, and a clearer path for the work ahead. Business owners and workers return because the guidance produces tangible results.",
+      "Traditional guidance designed to open doors, attract clients, and remove spiritual blockages affecting business success and stability. A shop goes quiet, a debt sits too long, or a person cannot tell whether to stay in a job or begin something new.",
+      "Traditional practices focused on clearing money-related setbacks, improving cash flow, and attracting financial opportunities. People bring those livelihood worries to amathongo because they want traditional guidance as well as their own effort.",
     ],
     relevantFor: [
       "A business is slow, new, or weighed down by debt, and you want help steadying it — with proven guidance.",
@@ -218,14 +218,14 @@ export const services: Service[] = [
     slug: "traditional-healing",
     title: "Traditional Healing & Wellness",
     description:
-      "Proven traditional support for strength, rest, and balance when body and spirit both feel heavy. A decade of helping people feel steadier.",
-    metaTitle: "Traditional Healing in Uganda — Proven Wellness Guidance",
+      "Traditional healing for strength, rest, and balance when body and spirit both feel heavy. Herbal knowledge, spiritual support, and guidance for wellbeing — not a replacement for medical care.",
+    metaTitle: "Traditional Healing in Uganda — Wellness Guidance",
     metaDescription:
-      "Traditional healing consultations in Uganda for people seeking strength, rest, and spiritual balance. Speak with amathongo in private. Proven outcomes.",
+      "Traditional healing consultations in Uganda for strength, rest, and spiritual balance. Herbal knowledge and spiritual support for people seeking to feel steadier. Kampala and WhatsApp.",
     h1: "Traditional healing and wellness — feel steady again",
     intro: [
-      "Traditional healing in Uganda is a long practice of listening when a person feels unwell in body, sleep, or spirit. amathongo offers that kind of consultation: a private sitting for people who want to feel steadier and to receive guidance for their wellbeing.",
-      "You describe how you have been living and what feels wrong. amathongo responds with traditional guidance aimed at rest, strength, and peace of mind, so the help matches the person in the room. Clients return because the guidance produces real improvement.",
+      "Traditional healing in Uganda is a long practice of listening when a person feels unwell in body, sleep, or spirit. Herbal knowledge and spiritual support for how you have been living and what feels wrong.",
+      "You describe what you are experiencing. The consultation offers traditional guidance for rest, strength, and peace of mind, so the help matches the person in the room. Clients return because the guidance produces real improvement.",
     ],
     relevantFor: [
       "You want traditional support for how you have been feeling — with proven results.",
@@ -267,14 +267,14 @@ export const services: Service[] = [
     slug: "spiritual-protection",
     title: "Spiritual Protection & Guidance",
     description:
-      "Proven protection and cleansing for a home or a life that feels exposed, disturbed, or in need of covering. A decade of restoring peace in Ugandan homes.",
-    metaTitle: "Spiritual Protection and Guidance in Uganda — Proven Results",
+      "Protective rituals and cleansing for a home or life that feels exposed — guarding against negative energy, jealousy, and harmful spiritual influences. Restoring peace and covering for Ugandan homes.",
+    metaTitle: "Spiritual Protection in Uganda — Traditional Cleansing",
     metaDescription:
-      "Spiritual protection in Uganda for the home and family. amathongo offers traditional guidance to restore peace and covering. Private consultations. Proven outcomes.",
+      "Spiritual protection in Uganda for the home and family. Traditional cleansing and protective rituals to restore peace and covering. Private consultations. Kampala and WhatsApp.",
     h1: "Spiritual protection and guidance — restore peace in your home",
     intro: [
-      "Some houses stop feeling like home. Sleep breaks, worry follows a person to work, or a family senses that peace has left the compound. amathongo consults with people who want spiritual protection and a return to calm.",
-      "You describe what changed. The consultation offers traditional guidance for covering the home and the people in it, cleansing what feels disturbed, and restoring a sense of safety in daily life. Families return because the protection holds.",
+      "Protective rituals to guard against negative energy, jealousy, witchcraft attacks, and harmful spiritual influences. Some houses stop feeling like home. Sleep breaks, worry follows a person to work, or a family senses that peace has left the compound.",
+      "The consultation offers traditional guidance for covering the home and the people in it, cleansing what feels disturbed, and restoring a sense of safety in daily life. Families return because the protection holds.",
     ],
     relevantFor: [
       "The home feels unsettled and you want protection for the family — with proven guidance.",
@@ -316,14 +316,14 @@ export const services: Service[] = [
     slug: "personal-family-guidance",
     title: "Personal & Family Concerns",
     description:
-      "Proven guidance for private decisions, family duty, study, travel, and work that will not settle on their own. A decade of helping people find their way forward.",
-    metaTitle: "Personal and Family Guidance in Uganda — Proven Results",
+      "Traditional guidance for personal and family decisions — drawing back a lost partner, securing work and career progress, and aligning your path with luck and success in daily life and major decisions.",
+    metaTitle: "Personal and Family Guidance in Uganda — Traditional Support",
     metaDescription:
-      "Personal and family guidance in Uganda for study, work, travel, and decisions at home. Speak privately with amathongo and get a way forward. Proven outcomes.",
+      "Personal and family guidance in Uganda for relationships, work, study, and travel. Traditional spiritual support for decisions at home. Speak privately with amathongo. Kampala and WhatsApp.",
     h1: "Personal and family guidance — find your way forward",
     intro: [
-      "Some problems do not fit one name. A parent's expectation, a plan to travel, a job you want, an exam that matters, or grief the rest of the family has no time for. amathongo takes these personal and family concerns one by one.",
-      "You bring the decision or the duty that is sitting on you. The consultation gives traditional guidance for that path, so you can see what to do next and how to carry the family with you. Clients return because the guidance works.",
+      "Traditional guidance for personal and family concerns — drawing back a loved one who has drifted away, rebuilding emotional closeness through ancestral guidance and spiritual focus.",
+      "Spiritual support to help secure employment, promotions, workplace favor, and long-term career progress. Rituals that enhance personal luck, improve opportunities, and align your path with success in daily life and major decisions.",
     ],
     relevantFor: [
       "You are facing a decision and want traditional direction before you commit — with proven guidance.",
