@@ -27,9 +27,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${fraunces.variable} ${sourceSans.variable} h-full antialiased`}>
       <body className="min-h-full border-t-4 border-moss bg-paper pb-20 text-ink md:pb-0">
-        <JsonLd data={organizationJson()} />
-        <JsonLd data={websiteJson()} />
-        <Analytics />
+      <JsonLd data={organizationJson()} />
+      <JsonLd data={websiteJson()} />
+      <meta
+        name="google-site-verification"
+        content="UVCWRovWbOItM8RP_oZ5_G5RRy2o_8V0n6lu3mcOCy4"
+      />
+      <Analytics />
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-ink focus:px-4 focus:py-2 focus:text-paper"

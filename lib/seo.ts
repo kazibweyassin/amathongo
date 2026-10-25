@@ -45,7 +45,6 @@ export function buildMetadata({
 }
 
 export function rootMetadata(): Metadata {
-  const verification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
   return {
     metadataBase: new URL(siteUrl()),
     title: {
@@ -127,6 +126,5 @@ export function rootMetadata(): Metadata {
         "max-video-preview": -1,
       },
     },
-    ...(verification ? { verification: { google: verification } } : {}),
   };
 }
